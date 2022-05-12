@@ -14,6 +14,14 @@ Run the following commands to clone the repository and install C2NL:
 
 cd NeuralCodeSum; pip install -r requirements.txt; python setup.py develop
 
+## For Python Data generation
+
+Use the CuBERT token generator file for gernerating the tokens and replace it with the original tokens.
+
+Then:
+
+$ cd data/python and run the script get_data.sh
+
 ## Training/Testing Models
 
 We provide a RNN-based sequence-to-sequence (Seq2Seq) model implementation along with our Transformer model. To perform training and evaluation, first go the scripts directory associated with the target dataset.
