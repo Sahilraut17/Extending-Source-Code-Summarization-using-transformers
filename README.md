@@ -1,6 +1,7 @@
 # Extending-Source-Code-Summarization-using-transformers
 
 Final Project for Course 533 natural Language Processing Rutgers University.
+
 Source code summarization can be explained as generating a readable summary that describes the functionality of a program. to solve this problem, it is critical to understand code rep- resentation by modeling the pairwise link be- tween code tokens in order to reflect their long- term dependence. We have explored the transformer model approach to generate summary based on the self-attention mechanism. Previous works have shown that this approach works better than the state-of-the-art techniques by a significant margin. To improve on it, we used the CuBERT tokenizer to generate tokens from the dataset. We were able to achieve better results than that of the previous work. We also experimented by adding the Diverse Beam Search for inference, instead of the Beam Search used before.
 
 
