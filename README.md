@@ -19,6 +19,10 @@ cd NeuralCodeSum; pip install -r requirements.txt; python setup.py develop
 
 Use the CuBERT token generator file for gernerating the tokens and replace it with the original tokens.
 
+For the token generation use the following repository:
+
+## https://github.com/Sahilraut17/CubertImplementation.git
+
 Then:
 
 $ cd data/python and run the script get_data.sh
